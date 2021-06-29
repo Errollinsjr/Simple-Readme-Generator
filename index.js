@@ -1,10 +1,10 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-// const axios = require("axios");
-const markdown = require("./produceMarkdown");
+const axios = require("axios");
+const md = require("./produceMarkdown");
 
-inquirer
-  .prompt([
+
+const mdBody = [
     {
       type: 'input',
       message: 'What is your application repository name?',
@@ -51,11 +51,12 @@ inquirer
       message: 'Enter any questions for the question section',
       name: 'Questions',
     }, 
-  ])
+  ]
+
   .then((response) => 
   {     
-
-    fs.writeFile(process.argv[2], 
+      
+    fs.writeFileSync('README.md', 
                  JSON.stringify(response, null, '\t'),
                 (err) => err ? console.error(err) : console.log('Success'))
 

@@ -1,4 +1,4 @@
-function generateMarkdown(response) {
+function produceMarkdown(response) {
     return `
   
   # ${response.title}
