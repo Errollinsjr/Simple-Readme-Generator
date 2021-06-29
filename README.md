@@ -9,6 +9,7 @@ A project to quickly, simply, & efficiently create READMe's
 ## Walkthrough
 
 ![App Demo](https://drive.google.com/file/d/1hohq7JnW--TCY5MvuHtZ5Q8Q3Pe3-bp2/view)
+Open a terminal and type index.js before then filling out the prompts accurately
 
 ## GitHub:
 
