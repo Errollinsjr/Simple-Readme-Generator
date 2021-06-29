@@ -43,7 +43,7 @@ function produceMarkdown(userResponse, userInfo) {
   ${userResponse.email} 
 
   ## GitHub: 
-  [@${userInfo.login}](${userInfo.url})
+  ${userInfo.html_url}
   Check out the badges hosted by [shields.io](https://shields.io/), all badges accredited to them
   `;
   }

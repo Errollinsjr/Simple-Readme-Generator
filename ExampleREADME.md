@@ -42,7 +42,7 @@
   Errollins.jr@gmail.com 
 
   ## GitHub: 
-  [@Errollinsjr](https://api.github.com/users/Errollinsjr)
+  https://github.com/Errollinsjr
 
   Check out the badges hosted by [shields.io](https://shields.io/), all badges accredited to them
   
