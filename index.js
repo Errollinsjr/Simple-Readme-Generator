@@ -50,8 +50,15 @@ inquirer
         name: 'Questions',
     }, 
   ])
-  
+  .then((response) => 
+  {     
+
+    fs.writeFile(process.argv[2], 
+                 JSON.stringify(response, null, '\t'),
+                (err) => err ? console.error(err) : console.log('Success'))
+
+  }
   
  
-
+);
   
