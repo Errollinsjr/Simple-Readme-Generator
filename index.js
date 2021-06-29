@@ -1,5 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+// const axios = require("axios");
+const markdown = require("./produceMarkdown");
 
 inquirer
   .prompt([
@@ -20,34 +22,34 @@ inquirer
       name: 'Table of Contents',
     },
     {
-        type: 'input',
-        message: 'What is your installation?',
-        name: 'Installation',
+      type: 'input',
+      message: 'What is your installation?',
+      name: 'Installation',
     },
     {
-        type: 'input',
-        message: 'What is the usage?',
-        name: 'Usage',
+      type: 'input',
+      message: 'What is the usage?',
+      name: 'Usage',
     },
     {
-        type: 'input',
-        message: 'What license is this?',
-        name: 'License',
+      type: 'input',
+      message: 'What license is this?',
+      name: 'License',
     },
     {
-        type: 'input',
-        message: 'Contributions?',
-        name: 'Contributing',
+      type: 'input',
+      message: 'Contributions?',
+      name: 'Contributing',
     }, 
     {
-        type: 'input',
-        message: 'What does this application test?',
-        name: 'Tests',
+      type: 'input',
+      message: 'What does this application test?',
+      name: 'Tests',
     },
     {
-        type: 'input',
-        message: 'Enter any questions for the question section',
-        name: 'Questions',
+      type: 'input',
+      message: 'Enter any questions for the question section',
+      name: 'Questions',
     }, 
   ])
   .then((response) => 
