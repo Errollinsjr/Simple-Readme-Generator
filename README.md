@@ -8,7 +8,8 @@ A project to quickly, simply, & efficiently create READMe's
 
 ## Walkthrough
 
-![Demo](https://vimeo.com/569164809
+![Demo](https://vimeo.com/569164809)
+</br>
 Open a terminal and type index.js before then filling out the prompts accurately
 
 ## GitHub:
